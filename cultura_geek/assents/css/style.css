@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*  */
+
+:root {
+    --ferlinda: #ff9671;
+    --amgetd: #876a5f;
+    --amor: #c34a36;
+    --rick: #fefedf;
+
+}
+
+* {
+    margin: 0;
+    /* a margem normal */
+    padding: 0;
+    /* distacia de um para com o outro */
+    box-sizing: border-box;
+    /* o box, o quadro */
+    font-family: 'Times New Roman', Times, serif;
+    /* a fonte que é familiar pra todos */
+}
+
+html {
+    height: 100vh;
+    background-color: rgb(114, 211, 215);
+}
+
+body{
+    background-image: linear-gradient(to top,var(--rick) var(--amgetd));
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+color: var(--amgetd);
+font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: var(--ferlinda);
+    height: 10vh;
+    margin: auto;
+    color: var(--rick);
+    text-align: center;
+}
+
+menu{
+    background-color:var(--amgetd) ;
+    height: 10vh;
+    margin: auto;
+    padding: 0.5;
+    color: var(--rick);
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+section{
+    background-color: var(--rick);
+    height: auto;
+    margin: auto;
+    text-align: justify;
+}
+
+footer{
+    background-color: var(--ferlinda);
+    height: 5vh;
+    margin: auto;
+    padding: 0.5;
+    color: var(--amgetd);
+    text-align: center;
+}
+
+button{
+    color: #f5f5dc;
+    background-color: #ffe4c4;
+    width: 100px;
+    margin: 5px;
+    padding: 2,5px;
+}
