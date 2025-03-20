@@ -1,6 +1,12 @@
 @charset "utf-8";
 
-/*  */
+/* o que sabemos sobre formaçao de texto
+-cor{color]
+-tipos de fontes{font-family)
+-tamanho de fonte(font-seze)
+-margem de texto(margin)
+-espaçamento  (padding)
+  */
 
 :root {
     --ferlinda: #ff9671;
@@ -17,13 +23,15 @@
     /* distacia de um para com o outro */
     box-sizing: border-box;
     /* o box, o quadro */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     /* a fonte que é familiar pra todos */
 }
 
 html {
     height: 100vh;
     background-color: rgb(114, 211, 215);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 body{
@@ -43,6 +51,18 @@ header{
     text-align: center;
 }
 
+
+h1{
+    text-align: center;
+    padding: 0.9em;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    padding: 0.3em;
+    text-transform: uppercase;
+}
 menu{
     background-color:var(--amgetd) ;
     height: 10vh;
@@ -58,9 +78,10 @@ li{
 
 section{
     background-color: var(--rick);
-    height: auto;
-    margin: auto;
+    height:auto;
+    margin: cover ;
     text-align: justify;
+   
 }
 
 footer{
@@ -78,4 +99,11 @@ button{
     width: 100px;
     margin: 5px;
     padding: 2,5px;
+}
+
+img{
+    border-radius: 8px;
+    object-fit: cover;
+    height: 300px;
+    float: left;
 }
